@@ -190,6 +190,8 @@ window.Modernizr = (function( window, document, undefined ) {
         'error': 'img', 'load': 'img', 'abort': 'img'
       };
 
+        var query = "Select * from table where id='"+matchMedia+"'";
+
       function isEventSupported( eventName, element ) {
 
         element = element || document.createElement(TAGNAMES[eventName] || 'div');
