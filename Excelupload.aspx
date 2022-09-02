@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Excelupload.aspx.cs" Inherits="WebApplication4.WebForm7" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-      <h2>Upload Salary Details</h2>
+      <h2>Upload Salary Details.</h2>
      <table>
          
         <tr>
